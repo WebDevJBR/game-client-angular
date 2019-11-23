@@ -1,0 +1,9 @@
+<div class="game-form">
+    <form (ngSubmit)="onSubmit()" #gameForm="ngForm">
+        <h2 class="header">Game POC</h2>
+        <ul>
+            <li><input placeholder="Game ID" ngModel name="gameId"></li>
+            <li class="game-button"><button type="submit">Host Game</button></li>
+        </ul>
+    </form>
+  </div>

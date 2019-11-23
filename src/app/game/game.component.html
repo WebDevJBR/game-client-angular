@@ -1,0 +1,8 @@
+<div class="players">
+    <h2>Players</h2>
+    <ul>
+        <li *ngFor="let user of users">{{ user.userName }}</li>
+    </ul>
+</div>
+<div class="buzzed-in">Buzzed In: {{ buzzedUser }}</div>
+<div class="reset-buzz" (click)="onReset()"><button type="button">Reset Buzz</button></div>

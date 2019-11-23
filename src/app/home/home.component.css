@@ -1,0 +1,33 @@
+.game-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vw;
+}
+
+.header {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px 0px
+}
+
+li {
+    margin: 10px 0px
+}
+
+input, select, button {
+    font-size: 15px;
+    text-align: center;
+}
+
+.game-button {
+    padding: 0px 50px;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: black;
+}
